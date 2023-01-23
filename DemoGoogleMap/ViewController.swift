@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let camera = GMSCameraPosition.camera(withLatitude: 13.807410812706953, longitude: 100.55515025492578, zoom: 10.0)
+        let camera = GMSCameraPosition.camera(withLatitude: 13.807410812706953, longitude: 100.55515025492578, zoom: 15.0)
         mapView.camera = camera
 
         // Creates a marker in the center of the map.
